@@ -14,7 +14,7 @@ int n;
 char last[] = "last digit of";
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("%s %i is %i and is ", last, n, n % 10);
+printf("%s %i is %i ", last, n, n % 10);
 if (n % 10 > 5)
 printf("and is greater than 5");
 else if ( n % 10 == 0)
