@@ -1,0 +1,1 @@
+this week, i am learning about pointers, arrays and strings.
